@@ -11,19 +11,18 @@
 START hilow_game
 
     # Establish a valid guessing range.
-    TODO: Obtain the lower and upper bounds.
-    TODO: Repeat as needed until the bounds satisfy the requirement.
+    TODO: the lower = 10 and upper bound= 50
+    TODO: Repart if guess > randomnumber then output your guess is to high or low base of guesses
 
-    # Establish the number the player is trying to guess.
-    TODO: Generate the required random number from the valid range.
+    # Establish the number the player is trying to guess. 32 is the sercet number
+    TODO: randonnumber = random number between 10 aqnd 50 
 
     # Play the game.
-    TODO: Obtain and validate a guess using the selected bounds.
-    TODO: Repeat the required game behavior until the correct guess.
-        TODO: Compare a valid guess and provide the required feedback.
-        TODO: Obtain and validate another guess when play continues.
+    TODO: if guess < randomnumber then output guess is too low
+    TODO: else if guess > randomnumber then output your guess is to high
+        TODO: if guess < randomnumber then output your guess is to low 
+        TODO: if guess < randomnumber than output your guess it to high 
 
 END hilow_game
 
-# === References ===
-# TODO: Add references for sources you used, or delete this line if unused.
+
